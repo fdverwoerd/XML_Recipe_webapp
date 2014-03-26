@@ -1,4 +1,11 @@
-XML_Recipe_webapp
-=================
+# XML Recipe WebApp
+> "Hmmm delicious"
 
-A webapp containing a list of recipes based on XML files.
+
+*Super*
+- - -
+What is XML Recipe webapp?
+
+- Recipe list
+- Shareable
+- Javascript
