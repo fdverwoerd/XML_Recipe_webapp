@@ -1,0 +1,59 @@
+<recepten>
+	<recept>
+		<titel>Empire Burssslesque</titel>
+		<ingredienten>
+			<ingredient>UI</ingredient>
+			<ingredient>Kaas</ingredient>
+		</ingredienten>
+		<beschrijving>Doe dit doe dat</beschrijving>
+		<keuken>USA</keuken>
+	</recept>
+
+	<recept>
+		<titel>Kippen soep</titel>
+		<ingredienten>
+			<ingredient>Hele KIP</ingredient>
+			<ingredient>WATER</ingredient>
+		</ingredienten>
+		<beschrijving>DOe kip in het water</beschrijving>
+		<keuken>NL</keuken>
+	</recept>
+	<recept>
+		<titel>Witlof schotel</titel>
+		<ingredienten>
+			<ingredient>witlof</ingredient>
+			<ingredient>aardappel</ingredient>
+			<ingredient>saus</ingredient>
+		</ingredienten>
+		<beschrijving>Kook witlof, kook aardappel kort, doe in bak en doe in oven, vergeet saus niet.</beschrijving>
+		<keuken>NL</keuken>
+	</recept>
+
+	<recept>
+		<titel>Oma's slaatje</titel>
+		<ingredienten>
+			<ingredient>zoete appel</ingredient>
+			<ingredient>augurk</ingredient>
+			<ingredient>aardappel</ingredient>
+			<ingredient>ui</ingredient>
+			<ingredient>SMAC</ingredient>
+			<ingredient>Erwtjes</ingredient>
+		</ingredienten>
+		<beschrijving>Kook witlof, kook aardappel kort, doe in bak en doe in oven, vergeet saus niet.</beschrijving>
+		<keuken>NL</keuken>
+	</recept>
+	
+	<recept>
+		<titel>Biertaart</titel>
+		<ingredienten>
+			<ingredient>Hertog Jan</ingredient>
+			<ingredient>water</ingredient>
+			<ingredient>zout</ingredient>
+			<ingredient>peper</ingredient>
+			<ingredient>kaas</ingredient>
+		</ingredienten>
+		<beschrijving>Gooi alles bij elkaar en kook die shit.</beschrijving>
+		<keuken>NL</keuken>
+	</recept>
+
+</recepten>

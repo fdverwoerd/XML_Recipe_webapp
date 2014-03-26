@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Recipes with XML</title>
+
+
+	<style>
+	body { background: whitesmoke;}
+
+	.full {
+		background: azure;
+		position: absolute;
+		left:0;
+		right:0;
+		top:0;
+		bottom: 0;
+
+	}
+	.header {
+		position: relative;
+		left:0;
+		right:0;
+		height: 2em;
+		background: green;
+	}
+	h2 { /* reset */
+		margin: 0;
+		color: white;
+		text-indent: 1em;
+	}
+	ul li {
+		list-style: none;
+	}
+	ul li ul li {
+		list-style: upper-roman;
+	}
+	#loading {
+		margin: 0 auto;
+		width: 1000px;
+		background: pink;
+		text-align: center;
+	}
+	
+
+	</style>
+</head>
+<body>
+	<div class="full">
+		<div class="header">
+			<h2>Recipes with XML</h2>
+		</div>
+
+		<div id="lijst">
+
+			<script>
+			if (window.XMLHttpRequest)
+			{// code for IE7+, Firefox, Chrome, Opera, Safari
+				xmlhttp=new XMLHttpRequest();
+			}
+			else
+			{// code for IE6, IE5
+				xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+			}
+			xmlhttp.open("GET","recepten.xml",false);
+			xmlhttp.send();
+			xmlDoc=xmlhttp.responseXML;
+
+			document.write("<ul>");
+			var x=xmlDoc.getElementsByTagName("recept");
+			console.log(x.length);
+			for (i=0;i<x.length;i++)
+			{
+				console.log('recept nummer: ' + i )
+				document.write("<li>");
+				
+				document.write("<h3>");
+				
+				document.write(x[i].getElementsByTagName("titel")[0].childNodes[0].nodeValue);
+				document.write("</h3>");
+
+				// var b = x[i].getElementsByTagName("ingredienten");
+
+				document.write("<ul>");
+				var b = x[i].getElementsByTagName("ingredient");
+
+				for (l=0;l < b.length;l++) {
+					document.write("<li>");
+					document.write(b[l].childNodes[0].nodeValue);
+					document.write("</li>");
+				}
+				document.write("</ul>");
+
+				document.write("<p>");
+				document.write(x[i].getElementsByTagName("beschrijving")[0].childNodes[0].nodeValue);
+				document.write("</p>");
+
+				document.write("</li>");
+
+
+			}
+			document.write("</ul>");
+			</script>
+
+		</div>
+		<div id="loading">
+			<img src="loading-spinning-bubbles.svg" alt="Loading icon" />
+			
+		</div>
+
+	</div>
+</body>
+</html>
