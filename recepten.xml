@@ -1,12 +1,16 @@
 <recepten>
 	<recept>
-		<titel>Empire Burssslesque</titel>
+		<titel>Het perfecte XML recept.</titel>
 		<auteur>Rickert</auteur>
+		<datum>05/01/1989</datum>
+		<waardering>5</waardering>
+		<bereidingstijd>20-40 min.</bereidingstijd>
+		<aantalpersonen>4</aantalpersonen>
 		<ingredienten>
 			<ingredient>UI</ingredient>
 			<ingredient>Kaas</ingredient>
 		</ingredienten>
-		<beschrijving>Doe dit doe dat</beschrijving>
+		<bereidingswijze>Doe dit doe dat</bereidingswijze>
 		<keuken>USA</keuken>
 	</recept>
 
@@ -16,7 +20,7 @@
 			<ingredient>Hele KIP</ingredient>
 			<ingredient>WATER</ingredient>
 		</ingredienten>
-		<beschrijving>DOe kip in het water</beschrijving>
+		<bereidingswijze>DOe kip in het water</bereidingswijze>
 		<keuken>NL</keuken>
 	</recept>
 	<recept>
@@ -26,7 +30,7 @@
 			<ingredient>aardappel</ingredient>
 			<ingredient>saus</ingredient>
 		</ingredienten>
-		<beschrijving>Kook witlof, kook aardappel kort, doe in bak en doe in oven, vergeet saus niet.</beschrijving>
+		<bereidingswijze>Kook witlof, kook aardappel kort, doe in bak en doe in oven, vergeet saus niet.</bereidingswijze>
 		<keuken>NL</keuken>
 	</recept>
 
@@ -40,7 +44,7 @@
 			<ingredient>SMAC</ingredient>
 			<ingredient>Erwtjes</ingredient>
 		</ingredienten>
-		<beschrijving>Kook witlof, kook aardappel kort, doe in bak en doe in oven, vergeet saus niet.</beschrijving>
+		<bereidingswijze>Kook witlof, kook aardappel kort, doe in bak en doe in oven, vergeet saus niet.</bereidingswijze>
 		<keuken>NL</keuken>
 	</recept>
 	
@@ -53,7 +57,7 @@
 			<ingredient>peper</ingredient>
 			<ingredient>kaas</ingredient>
 		</ingredienten>
-		<beschrijving>Gooi alles bij elkaar en kook die shit.</beschrijving>
+		<bereidingswijze>Gooi alles bij elkaar en kook die shit.</bereidingswijze>
 		<keuken>NL</keuken>
 	</recept>
 
